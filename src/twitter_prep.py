@@ -1,7 +1,7 @@
 from itertools import zip_longest
 import re
 
-data_path = "ADD YOUR CHOSEN TOPIC FILE PATH HERE"
+data_path = "data/raw/weather.txt"
 
 # Defining lines as a list of each line
 with open(data_path, 'r', encoding='utf-8') as f:

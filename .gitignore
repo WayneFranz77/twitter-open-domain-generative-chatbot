@@ -1,16 +1,50 @@
+# Virtual Environments
 venv/
 .venv/
+env/
 
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
 
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
 .vscode/
 
+# Logs
 logs/
 *.log
 
-models/checkpoints/
+# Trained Models
+*.keras
+*.h5
+*.hdf5
 models/trained/
+models/checkpoints/
 
+# Generated Outputs
+outputs/predictions/
+outputs/evaluations/
+
+# Dataset Processing
+data/processed/
+data/embeddings/
+
+# Operating System Files
 Thumbs.db
 .DS_Store
+
+# Environment Variables
+.env
+
+# Pytest
+.pytest_cache/
+
+# Coverage Reports
+.coverage
+htmlcov/

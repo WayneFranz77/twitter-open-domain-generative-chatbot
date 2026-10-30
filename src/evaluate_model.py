@@ -7,7 +7,7 @@ from keras.models import Model, load_model
 import numpy as np
 import re
 
-training_model = load_model('training_model.h5')
+training_model = load_model('models/trained/training_model.keras')
 ###### because we're working with a saved model
 encoder_inputs = training_model.input[0]
 encoder_outputs, state_h_enc, state_c_enc = training_model.layers[2].output
