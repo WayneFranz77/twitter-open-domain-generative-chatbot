@@ -1,0 +1,16 @@
+venv/
+.venv/
+
+__pycache__/
+*.pyc
+
+.vscode/
+
+logs/
+*.log
+
+models/checkpoints/
+models/trained/
+
+Thumbs.db
+.DS_Store

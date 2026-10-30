@@ -1,0 +1,11 @@
+project:
+  name: twitter-open-domain-generative-chatbot
+  version: 1.0.0
+
+training:
+  epochs: 50
+  batch_size: 64
+
+model:
+  embedding_dim: 256
+  latent_dim: 512
